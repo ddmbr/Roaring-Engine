@@ -12,7 +12,7 @@ import serge.blocks.actors
 from theme import G
 
 class MainScreen(serge.blocks.actors.ScreenActor):
-    """The logic for the main screen"""
+    """ The logic for the main screen """
     def __init__(self):
         super(MainScreen, self).__init__('item', 'main-screen')
     def addedToWorld(self, world):
