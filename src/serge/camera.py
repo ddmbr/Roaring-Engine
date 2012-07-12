@@ -51,6 +51,8 @@ class Camera(common.Loggable, geometry.Rectangle):
         if self.target:
             dx, dy = self.target.getRelativeLocationCentered(self)
             mx = my = 100.0 * interval/1000.0
+            print "dx, dy:", dx, dy
+            print "mx, my:", mx, my
             if abs(dx) > mx:
                 dx = math.copysign(mx, dx)
             if abs(dy) > my:

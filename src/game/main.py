@@ -31,6 +31,7 @@ def registerGraphics():
     #   r('bg', 'bg.png')
     #   rf('car-jump', 'car-jump-%d.png', 10, 15, True, loop=False)
     #
+    r('default-car', 'default-car.png')
 
 def startEngine():
     engine = serge.engine.Engine(

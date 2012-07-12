@@ -16,7 +16,8 @@ NUM_AUDIO_CHANNELS = 32
 # Look for Pymunk
 try:
     import pymunk
-    pymunk.init_pymunk()
+    #test
+    #pymunk.init_pymunk()
     PYMUNK_OK = True
 except ImportError:
     import simplevecs as pymunk

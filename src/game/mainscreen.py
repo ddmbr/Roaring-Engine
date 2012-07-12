@@ -11,6 +11,8 @@ import serge.blocks.actors
 
 from theme import G
 
+import player
+
 class MainScreen(serge.blocks.actors.ScreenActor):
     """ The logic for the main screen """
     def __init__(self):
@@ -28,6 +30,19 @@ class MainScreen(serge.blocks.actors.ScreenActor):
         #       player.PlayerCar('player', 'player')
         #       )
         #
+        self.player = serge.blocks.utils.addActorToWorld(
+            world,
+            player.Player('player', 'player'),
+            physics = serge.physical.PhysicalConditions(
+                mass = 1,
+                width = 1,
+                height = 1,
+                update_angle = True
+                )
+            )
+        camera = serge.engine.CurrentEngine().renderer.getCamera()
+        camera.setTarget(self.player)
+        
 
 def main():
     world = serge.engine.CurrentEngine().getWorld('main-screen')
