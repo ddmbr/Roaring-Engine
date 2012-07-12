@@ -12,6 +12,7 @@ import serge.blocks.actors
 from theme import G
 
 import player
+import bg
 
 class MainScreen(serge.blocks.actors.ScreenActor):
     """ The logic for the main screen """
@@ -39,6 +40,10 @@ class MainScreen(serge.blocks.actors.ScreenActor):
                 height = 1,
                 update_angle = True
                 )
+            )
+        self.bg = serge.blocks.utils.addActorToWorld(
+            world,
+            bg.Background('bg', 'bg'),
             )
         camera = serge.engine.CurrentEngine().renderer.getCamera()
         camera.setTarget(self.player)

@@ -26,6 +26,7 @@ class Player(serge.blocks.actors.ScreenActor):
         #
         # Assign physics
         self.force = 400
+        self.hand_brake = False
         pc = self.physical_conditions
         pc.mass = 1500
         pc.width = 64
@@ -40,12 +41,24 @@ class Player(serge.blocks.actors.ScreenActor):
         body = self.physical_conditions.body
         body.reset_forces()
         self.speed = math.sqrt(body.velocity[0] ** 2 + body.velocity[1] ** 2)
+        if self.keyboard.isDown(pygame.K_SPACE):
+            self.hand_brake = True
+        else:
+            self.hand_brake = False
         if self.keyboard.isDown(pygame.K_a):
             body.angle -= 0.02
-            body.velocity[0] = self.speed * math.cos(body.angle)
+            if not self.hand_brake:
+                body.velocity[0] = self.speed * math.cos(body.angle)
+            else:
+                body.angle -= 0.02
+                print "DRIFT"
         if self.keyboard.isDown(pygame.K_d):
             body.angle += 0.02
-            body.velocity[1] = self.speed * math.sin(body.angle)
+            if not self.hand_brake:
+                body.velocity[1] = self.speed * math.sin(body.angle)
+            else:
+                body.angle += 0.02
+                print "DRIFT"
         force_x = math.cos(body.angle) * self.force
         force_y = math.sin(body.angle) * self.force
         if self.keyboard.isDown(pygame.K_w):
@@ -53,9 +66,17 @@ class Player(serge.blocks.actors.ScreenActor):
         if self.keyboard.isDown(pygame.K_s):
             body.apply_force((-force_x / 2, -force_y / 2), (0, 0))
         if body.velocity != (0, 0):
-            body.velocity[0] *= 0.93
-            body.velocity[1] *= 0.93
+            body.velocity[0] *= 0.96
+            body.velocity[1] *= 0.96
         #0-200-600-800, 0-200-440-640
         camera = serge.engine.CurrentEngine().renderer.getCamera()
-        camera.update(10)
+        dx, dy = self.getRelativeLocationCentered(camera)
+        if dx < 100 and dx > -100 and dy < 100 and dy > -100:
+            camera.update(10)
+        else:
+            while not (dx < 100 and dx > -100 and dy < 100 and dy > -100):
+                camera.update(10)
+                dx, dy = self.getRelativeLocationCentered(camera)
+        # save the last position
+        self.last_pos = (self.x, self.y)
         #print (-body.velocity[0] ** 2 * 0.02, -body.velocity[1] ** 2 * 0.02), body.velocity
