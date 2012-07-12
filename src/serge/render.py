@@ -283,10 +283,12 @@ class Layer(RenderingLayer):
         
         """
         self.setSurface(pygame.Surface((renderer.width, renderer.height), pygame.SRCALPHA, 32))
+        self.clearBeforeUpdate = True
      
     def clearSurface(self):
         """Clear our surface"""
-        self.surface.fill((0,0,0,0))
+        if self.clearBeforeUpdate:
+            self.surface.fill((0,0,0,0))
 
     def render(self, surface):
         """Render to a surface"""

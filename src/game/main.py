@@ -33,6 +33,7 @@ def registerGraphics():
     #
     r('default-car', 'default-car.png')
     r('default-background', 'default-track.png')
+    r('empty-ground', 'empty-ground.png')
 
 def startEngine():
     engine = serge.engine.Engine(
@@ -43,6 +44,7 @@ def startEngine():
     #
     #Create layers
     serge.blocks.utils.createVirtualLayersForEngine(
+    #serge.blocks.utils.createLayersForEngine(
         engine,
         ['background',
          'ground',
@@ -50,6 +52,8 @@ def startEngine():
          'status',
          'message']
         )
+    #ground_layer = serge.engine.CurrentEngine().renderer.getLayer('background')
+    #ground_layer.clearBeforeUpdate = False
     #
     #Create Worlds
     serge.blocks.utils.createWorldsForEngine(

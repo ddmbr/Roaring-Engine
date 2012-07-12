@@ -275,7 +275,8 @@ class SurfaceDrawing(Drawing):
         
     def renderTo(self, milliseconds, surface, (x, y)):
         """Render to a surface"""
-        surface.blit(self.getSurface(), (x, y))
+        img = self.getSurface()
+        surface.blit(img, (x-img.get_width()/2, y-img.get_height()/2))
 
     def scaleBy(self, factor):
         """Scale the image by a factor"""
@@ -327,6 +328,10 @@ class Sprite(Drawing):
         new = self.__class__()
         new.setImage(self.raw_image, (self.width, self.height), self.framerate, self.running, self.loop)
         return new
+
+    def getSurface(self):
+        """Return the current surface"""
+        return self.cells[self.current_cell]
 
     def setAlpha(self, alpha):
         """Set the overall alpha"""

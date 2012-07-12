@@ -51,6 +51,7 @@ class Actor(common.Loggable, geometry.Rectangle, common.EventAware):
         # Whether we respond to updates or not
         self.active = True
         self.visible = True   
+        self.alwaysVisible = False
         # Class based tag to locate the actor by
         self.tag = tag
         # Unique name to locate by
@@ -103,6 +104,10 @@ class Actor(common.Loggable, geometry.Rectangle, common.EventAware):
         self._visual = value
         self._resetVisual()
         
+    def setVisual(self, value):
+        """Set the visual item for this actor"""
+        self._visual = value
+
     def _resetVisual(self):
         """Reset the visual item on the center point"""
         #
@@ -143,7 +148,7 @@ class Actor(common.Loggable, geometry.Rectangle, common.EventAware):
             camera = renderer.camera
             if layer.static:
                 coords = self.getOrigin()
-            elif camera.canSee(self):
+            elif camera.canSee(self) or self.alwaysVisible:
                 coords = camera.getRelativeLocation(self)
             else: 
                 return # Cannot see me

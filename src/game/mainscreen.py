@@ -45,9 +45,12 @@ class MainScreen(serge.blocks.actors.ScreenActor):
             world,
             bg.Background('bg', 'bg'),
             )
+        self.ground = serge.blocks.utils.addActorToWorld(
+            world,
+            bg.Ground('ground', 'ground'),
+            )
         camera = serge.engine.CurrentEngine().renderer.getCamera()
         camera.setTarget(self.player)
-        
 
 def main():
     world = serge.engine.CurrentEngine().getWorld('main-screen')

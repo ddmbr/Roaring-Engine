@@ -52,6 +52,27 @@ class Player(serge.blocks.actors.ScreenActor):
             else:
                 body.angle -= 0.02
                 print "DRIFT"
+                #ground_layer = serge.engine.CurrentEngine().renderer.getLayer('background')
+                #ground_surface = ground_layer.getSurface()
+        if self.hand_brake and random.randint(1, 5) != 4:
+            world = serge.engine.CurrentEngine().getWorld('main-screen')
+            ground = world.findActorByName('ground')
+            ground_surface = ground._visual.getSurface()
+            pygame.draw.line(
+                ground_surface,
+                (0x50, 0x50, 0x50),
+                (self.last_pos[0] + 4000, self.last_pos[1] + 3200),
+                (self.x + 4000, self.y + 3200),
+                10
+                )
+            #pygame.draw.circle(
+            #    ground_surface,
+            #    (0x50, 0x50, 0x50),
+            #    (int(self.x) + 4000, int(self.y) + 3200),
+            #    10
+            #    )
+            ground._visual.setSurface(ground_surface)
+
         if self.keyboard.isDown(pygame.K_d):
             body.angle += 0.02
             if not self.hand_brake:
@@ -77,6 +98,9 @@ class Player(serge.blocks.actors.ScreenActor):
             while not (dx < 100 and dx > -100 and dy < 100 and dy > -100):
                 camera.update(10)
                 dx, dy = self.getRelativeLocationCentered(camera)
+        if self.keyboard.isDown(pygame.K_o):
+            camera.zoom *= 0.9
+        #
         # save the last position
         self.last_pos = (self.x, self.y)
         #print (-body.velocity[0] ** 2 * 0.02, -body.velocity[1] ** 2 * 0.02), body.velocity
