@@ -6,14 +6,17 @@ theme = serge.blocks.themes.Manager()
 theme.load({
     'main':('',{
     # global settings
-    'screen-height': 640,
-    'screen-width': 800,
+    'screen-height': 700,
+    'screen-width': 900,
     'screen-title': 'Roaring Engine',
     'framerate':30,
     # player settings
     'player-x': 320,
     'player-y': 400,
     'player-speed': 5,
+    # track settings
+    'track-height': 6400,
+    'track-width': 8000,
     }),
     '__default__':'main'
 })

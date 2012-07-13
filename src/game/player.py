@@ -25,12 +25,12 @@ class Player(serge.blocks.actors.ScreenActor):
         self.keyboard = serge.engine.CurrentEngine().getKeyboard()
         #
         # Assign physics
-        self.force = 400
+        self.force = 500
         self.hand_brake = False
         pc = self.physical_conditions
         pc.mass = 1500
-        pc.width = 64
-        pc.height = 80
+        pc.width = 48
+        pc.height = 64
         pc.friction = 10
         #self.setPhysical(self.physical_conditions)
         #
@@ -46,23 +46,33 @@ class Player(serge.blocks.actors.ScreenActor):
         else:
             self.hand_brake = False
         if self.keyboard.isDown(pygame.K_a):
-            body.angle -= 0.02
+            body.angle -= 0.04
             if not self.hand_brake:
-                body.velocity[0] = self.speed * math.cos(body.angle)
+                temp_angle = body.angle - math.pi / 2
+                body.apply_impulse((math.cos(temp_angle) * self.force * 0.02, math.sin(temp_angle) * self.force * 0.02))
+                body.velocity[0] *= 0.97
+                body.velocity[1] *= 0.97
             else:
-                body.angle -= 0.02
-                print "DRIFT"
-                #ground_layer = serge.engine.CurrentEngine().renderer.getLayer('background')
-                #ground_surface = ground_layer.getSurface()
-        if self.hand_brake and random.randint(1, 5) != 4:
+                body.angle -= 0.04
+        if self.keyboard.isDown(pygame.K_d):
+            body.angle += 0.04
+            if not self.hand_brake:
+                temp_angle = body.angle + math.pi / 2
+                body.apply_impulse((math.cos(temp_angle) * self.force * 0.02, math.sin(temp_angle) * self.force * 0.02))
+                body.velocity[0] *= 0.97
+                body.velocity[1] *= 0.97
+            else:
+                body.angle += 0.04
+
+        if self.hand_brake and self.speed > 200 and random.randint(1, 5) != 4:
             world = serge.engine.CurrentEngine().getWorld('main-screen')
             ground = world.findActorByName('ground')
             ground_surface = ground._visual.getSurface()
             pygame.draw.line(
                 ground_surface,
                 (0x50, 0x50, 0x50),
-                (self.last_pos[0] + 4000, self.last_pos[1] + 3200),
-                (self.x + 4000, self.y + 3200),
+                (self.last_pos[0] + G('track-width') / 2, self.last_pos[1] + G('track-height') / 2),
+                (self.x + G('track-width') / 2, self.y + G('track-height') / 2),
                 10
                 )
             #pygame.draw.circle(
@@ -73,23 +83,18 @@ class Player(serge.blocks.actors.ScreenActor):
             #    )
             ground._visual.setSurface(ground_surface)
 
-        if self.keyboard.isDown(pygame.K_d):
-            body.angle += 0.02
-            if not self.hand_brake:
-                body.velocity[1] = self.speed * math.sin(body.angle)
-            else:
-                body.angle += 0.02
-                print "DRIFT"
         force_x = math.cos(body.angle) * self.force
         force_y = math.sin(body.angle) * self.force
         if self.keyboard.isDown(pygame.K_w):
             body.apply_force((force_x, force_y), (0, 0))
-        if self.keyboard.isDown(pygame.K_s):
-            body.apply_force((-force_x / 2, -force_y / 2), (0, 0))
+        if self.keyboard.isDown(pygame.K_s) or (self.hand_brake and self.speed < 200):
+            self.brake()
+        #
+        # handle friction
         if body.velocity != (0, 0):
-            body.velocity[0] *= 0.96
-            body.velocity[1] *= 0.96
-        #0-200-600-800, 0-200-440-640
+            body.velocity[0] *= 0.97
+            body.velocity[1] *= 0.97
+        # 0-200-600-800, 0-200-440-640
         camera = serge.engine.CurrentEngine().renderer.getCamera()
         dx, dy = self.getRelativeLocationCentered(camera)
         if dx < 100 and dx > -100 and dy < 100 and dy > -100:
@@ -104,3 +109,8 @@ class Player(serge.blocks.actors.ScreenActor):
         # save the last position
         self.last_pos = (self.x, self.y)
         #print (-body.velocity[0] ** 2 * 0.02, -body.velocity[1] ** 2 * 0.02), body.velocity
+        self.log.info(int(self.speed))
+    def brake(self):
+        body = self.physical_conditions.body
+        body.velocity[0] *= 0.8
+        body.velocity[1] *= 0.8

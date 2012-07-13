@@ -23,9 +23,8 @@ class Background(serge.blocks.actors.ScreenActor):
 class Ground(serge.blocks.actors.ScreenActor):
     def addedToWorld(self, world):
         super(Ground, self).addedToWorld(world)
-        ground_sd = serge.visual.SurfaceDrawing(8000, 6400)
+        ground_sd = serge.visual.SurfaceDrawing(G('track-width'), G('track-height'))
         self.setVisual(ground_sd)
         self.setLayerName('ground')
-        #self.moveTo(-4000, -3200)
         self.moveTo(0, 0)
         self.alwaysVisible = True
