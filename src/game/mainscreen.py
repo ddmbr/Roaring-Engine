@@ -19,7 +19,7 @@ import olctlhub
 
 class MainScreen(serge.blocks.actors.ScreenActor):
     """ The logic for the main screen """
-    def __init__(self, other_player_num = 1):
+    def __init__(self, other_player_num = 0):
         super(MainScreen, self).__init__('item', 'main-screen')
         self.other_player_num = other_player_num
     def addedToWorld(self, world):
@@ -57,7 +57,7 @@ class MainScreen(serge.blocks.actors.ScreenActor):
         self.log.info(len(world.findActorsByTag('player')))
         while len(world.findActorsByTag('player')) != self.other_player_num + 1:
             data = json.dumps(['request-player'])
-            olctlhub.sock.sendto(data, (G('host'), G('port')))
+            olctlhub.send(data)
             self.olctl.updateActor(1, world)
         camera = serge.engine.CurrentEngine().renderer.getCamera()
         camera.setTarget(self.player)

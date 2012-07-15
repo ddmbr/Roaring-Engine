@@ -56,3 +56,13 @@ class OLControlHub(serge.actor.Actor):
                 p = world.findActorByName(str(recieved[0]))
                 if p != None:
                     p.moveTo(*tuple(recieved[2]))
+            elif recieved[1] == 'adjust-physical':
+                p = world.findActorByName(str(recieved[0]))
+                if p == None:
+                    self.log.info(str(recieved[0])+' not found')
+                p.x, p.y = recieved[2][0], recieved[2][1]
+                body = p.physical_conditions.body
+                body.angle, body.velocity = recieved[2][2], tuple(recieved[2][3])
+
+def send(data):
+    sock.sendto(data, (G('host'), G('port')))

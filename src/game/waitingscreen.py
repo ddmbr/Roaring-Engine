@@ -67,30 +67,16 @@ class ClickCheck(serge.blocks.behaviours.Behaviour):
                 if button.tag == 'list-item':
                     # join in a room
                     button.hightlight()
-                    olctlhub.sock.sendto(
-                        json.dumps(['join-room', int(button.name)]),
-                        (G('host'), G('port'))
-                        )
+                    olctlhub.send(json.dumps(['join-room', int(button.name)]))
                 else:
                     if button.name == 'refresh':
-                        olctlhub.sock.sendto(
-                            json.dumps(['view-rooms']),
-                            (G('host'), G('port'))
-                            )
+                        olctlhub.send(json.dumps(['view-rooms']))
                     elif button.name == 'new':
-                        olctlhub.sock.sendto(
-                            json.dumps(['new-room']),
-                            (G('host'), G('port'))
+                        olctlhub.send(json.dumps(['new-room'])
                             )
-                        olctlhub.sock.sendto(
-                            json.dumps(['view-rooms']),
-                            (G('host'), G('port'))
-                            )
+                        olctlhub.send(json.dumps(['view-rooms']))
                     elif button.name == 'start':
-                        olctlhub.sock.sendto(
-                            json.dumps(['start']),
-                            (G('host'), G('port'))
-                            )
+                        olctlhub.send(json.dumps(['start']))
 
 def main():
     world = serge.engine.CurrentEngine().getWorld('waiting-screen')

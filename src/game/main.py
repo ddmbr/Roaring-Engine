@@ -80,7 +80,7 @@ def main():
     #
     # Initialize the main logic
     # TODO
-    # mainscreen.main()
+    # mainscreen.main(0)
     waitingscreen.main()
     #
     # Run the engine

@@ -14,6 +14,8 @@ import serge.blocks.behaviours
 
 from theme import G
 
+import olctlhub
+
 class Player(serge.blocks.actors.ScreenActor):
     def __init__(self, isOLPlay = False, isMainPlayer = True, sock = None, name = ''):
         # TODO modify to enable online playing
@@ -124,8 +126,10 @@ class Player(serge.blocks.actors.ScreenActor):
         # Update the info to the server side
         if self.isOLPlay and self.isMainPlayer:
             key_data = json.dumps(['keys', self.keys])
-            self.sock.sendto(key_data, ('184.82.236.126', 9999))
+            olctlhub.send(key_data)
             # and adjust all info. if lantency to much then reject
+            physical_data = json.dumps(['adjust-physical', [self.x, self.y, body.angle, tuple(body.velocity)]])
+            olctlhub.send(physical_data)
         if self.isMainPlayer:
             pass
             #self.log.info(self.speed)
