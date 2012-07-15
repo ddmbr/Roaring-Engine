@@ -1,4 +1,4 @@
 This is a online car racing game based on Pygame and the Serge engine.
 
-Online playing is not implemented yet, but physical stuff is workable now.
+Online playing is already implemented but buggy.
 Use ASDW and SPACE to control the car.
