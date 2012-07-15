@@ -100,7 +100,7 @@ class World(common.Loggable, serialize.Serializable, common.EventAware):
             try:
                 return z.findActorByName(name)
             except zone.ActorNotFound:
-                pass
+                return None
         else:
             raise zone.ActorNotFound('Unable to find actor named "%s" in any zone' % name)
 

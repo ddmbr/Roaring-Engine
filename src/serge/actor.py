@@ -222,7 +222,7 @@ class Actor(common.Loggable, geometry.Rectangle, common.EventAware):
     def syncPhysics(self, spatial_only=False):
         """Sync physics when the actors physical properties have been changed"""
         if self.physical_conditions:
-            #self.log.debug('Syncing physics for %s to %s, %s' % (self.getNiceName(), self.x, self.y))
+            self.log.debug('Syncing physics for %s to %s, %s' % (self.getNiceName(), self.x, self.y))
             self.physical_conditions.body.position = self.x, self.y
             if not spatial_only:
                 self.physical_conditions.body.velocity = self.physical_conditions.velocity

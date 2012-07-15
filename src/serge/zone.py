@@ -115,7 +115,8 @@ class Zone(geometry.Rectangle, common.Loggable):
     
     def findActorsByTag(self, tag):
         """Return all the actors with a certain tag"""
-        return [actor for actor in self.actors if actor.tag == tag]
+        res = [actor for actor in self.actors if actor.tag == tag]
+        return res
     
     def findFirstActorByTag(self, tag):
         """Return the first actor found with the given tag or raise an error"""
