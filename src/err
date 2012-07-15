@@ -1,0 +1,1766 @@
+Aborting due to Chipmunk error: Unsolvable collision or constraint.
+	Failed condition: value != 0.0
+	Source:chipmunk_src/include/chipmunk/constraints/util.h:83
+Aborting due to Chipmunk error: Unsolvable collision or constraint.
+	Failed condition: value != 0.0
+	Source:chipmunk_src/include/chipmunk/constraints/util.h:83
+Aborting due to Chipmunk error: Unsolvable collision or constraint.
+	Failed condition: value != 0.0
+	Source:chipmunk_src/include/chipmunk/constraints/util.h:83
+Aborting due to Chipmunk error: Unsolvable collision or constraint.
+	Failed condition: value != 0.0
+	Source:chipmunk_src/include/chipmunk/constraints/util.h:83
+Aborting due to Chipmunk error: Unsolvable collision or constraint.
+	Failed condition: value != 0.0
+	Source:chipmunk_src/include/chipmunk/constraints/util.h:83
+Aborting due to Chipmunk error: Unsolvable collision or constraint.
+	Failed condition: value != 0.0
+	Source:chipmunk_src/include/chipmunk/constraints/util.h:83
+Aborting due to Chipmunk error: Unsolvable collision or constraint.
+	Failed condition: value != 0.0
+	Source:chipmunk_src/include/chipmunk/constraints/util.h:83
+Aborting due to Chipmunk error: Unsolvable collision or constraint.
+	Failed condition: value != 0.0
+	Source:chipmunk_src/include/chipmunk/constraints/util.h:83
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's position is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's velocity is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Aborting due to Chipmunk error: Body's angular velocity is invalid.
+	Failed condition: body->w == body->w && cpfabs(body->w) != INFINITY
+	Source:chipmunk_src/cpBody.c:126
+Aborting due to Chipmunk error: Internal error: Body's rotation vector is invalid.
+	Failed condition: cpfabs(v.x) != INFINITY && cpfabs(v.y) != INFINITY
+	Source:chipmunk_src/cpBody.c:108
+Traceback (most recent call last):
+  File "start.py", line 5, in <module>
+    game.main.main()
+  File "/home/ddmbr/play/pygame-course/Roaring Engine/src/game/main.py", line 87, in main
+    engine.run(G('framerate'))
+  File "/home/ddmbr/play/pygame-course/Roaring Engine/src/serge/engine.py", line 204, in run
+    self.processEvents()
+  File "/home/ddmbr/play/pygame-course/Roaring Engine/src/serge/engine.py", line 289, in processEvents
+    events = self._mouse.getActorEvents(self._current_world)
+  File "/home/ddmbr/play/pygame-course/Roaring Engine/src/serge/input.py", line 234, in getActorEvents
+    actors = self.getActorsUnderMouse(world)
+  File "/home/ddmbr/play/pygame-course/Roaring Engine/src/serge/input.py", line 266, in getActorsUnderMouse
+    actors_camera = set([a for a in world.findActorsAt(x, y) if not r.getLayer(a.layer).static])
+  File "/home/ddmbr/play/pygame-course/Roaring Engine/src/serge/world.py", line 112, in findActorsAt
+    if test.isInside(the_actor):
+  File "/home/ddmbr/play/pygame-course/Roaring Engine/src/serge/geometry.py", line 226, in isInside
+    return other.rect.collidepoint(self.rect[0], self.rect[1]) == 1    
+  File "/home/ddmbr/play/pygame-course/Roaring Engine/src/serge/geometry.py", line 36, in collidepoint
+    r1 = pygame.rect.Rect(self)
+TypeError: Argument must be rect style object

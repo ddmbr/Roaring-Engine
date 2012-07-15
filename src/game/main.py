@@ -15,6 +15,7 @@ import serge.common
 import serge.blocks.utils
 
 import mainscreen
+import waitingscreen
 
 from theme import G
 
@@ -33,6 +34,7 @@ def registerGraphics():
     #
     r('default-car', 'default-car.png')
     r('default-background', 'default-track.png')
+    r('default-button', 'default-button.png')
     r('empty-ground', 'empty-ground.png')
 
 def startEngine():
@@ -59,11 +61,13 @@ def startEngine():
     serge.blocks.utils.createWorldsForEngine(
         engine,
         ['start-screen',
+         'waiting-screen',
+         'room-screen',
          'main-screen']
         )
     #
     #Set current world
-    engine.setCurrentWorldByName('main-screen')
+    engine.setCurrentWorldByName('waiting-screen')
     return engine
 
 def main():
@@ -75,7 +79,9 @@ def main():
     engine = startEngine()
     #
     # Initialize the main logic
-    mainscreen.main()
+    # TODO
+    # mainscreen.main()
+    waitingscreen.main()
     #
     # Run the engine
     engine.run(G('framerate'))

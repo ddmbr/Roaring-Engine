@@ -17,6 +17,9 @@ theme.load({
     # track settings
     'track-height': 6400,
     'track-width': 8000,
+    # network settings
+    'host': '184.82.236.126',
+    'port': 9999,
     }),
     '__default__':'main'
 })

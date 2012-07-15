@@ -1,9 +1,11 @@
 
-""" This is a template for an actor """
+""" This is class for a player(car) """
 
 import pygame
 import random
 import math
+import socket
+import json
 
 import serge.actor
 import serge.common
@@ -13,7 +15,18 @@ import serge.blocks.behaviours
 from theme import G
 
 class Player(serge.blocks.actors.ScreenActor):
+    def __init__(self, isOLPlay = False, isMainPlayer = True, sock = None, name = ''):
+        # TODO modify to enable online playing
+        self.isOLPlay = isOLPlay
+        self.isMainPlayer = isMainPlayer
+        if self.isOLPlay:
+            self.sock = sock
+        if isMainPlayer:
+            super(Player, self).__init__('player', 'player')
+        else:
+            super(Player, self).__init__('player', name)
     def addedToWorld(self, world):
+        """ Add the car to the track and do part of init stuff """
         super(Player, self).addedToWorld(world)
         # TODO set a particular color
         self.setSpriteName('default-car')
@@ -22,23 +35,21 @@ class Player(serge.blocks.actors.ScreenActor):
         # Assign behaviour
         self.speed = G('player-speed')
         self.manager = world.findActorByName('behaviours')
-        self.keyboard = serge.engine.CurrentEngine().getKeyboard()
-        self.manager.assignBehaviour(
-            self,
-            KeyControl(),
-            'player-movement'
-            )
+        if self.isMainPlayer:
+            #self.keyboard = serge.engine.CurrentEngine().getKeyboard()
+            self.manager.assignBehaviour(
+                self,
+                KeyControl(),
+                'player-movement'
+                )
         #
         # Assign physical attributes
-        self.force = 500
+        self.force = 3250
         pc = self.physical_conditions
-        pc.mass = 1500
+        pc.mass = 900
         pc.width = 48
         pc.height = 64
         pc.friction = 10
-        #
-        # Place the player properly
-        self.moveTo(G('player-x'), G('player-y'))
         #
         # keys constants
         self.GO = 0
@@ -58,24 +69,24 @@ class Player(serge.blocks.actors.ScreenActor):
         #
         # Handle turn left or turn right
         if self.keys[self.LEFT] and self.speed > 20:
-            body.angle -= 0.04
+            body.angle -= 0.05
             if not self.keys[self.HANDBRAKE]:
                 temp_angle = body.angle - math.pi / 2
                 body.apply_impulse(
                     (math.cos(temp_angle) * self.force * 0.02,
                      math.sin(temp_angle) * self.force * 0.02))
-                self.brake(0.97)
+                self.brake(0.95)
             else:
                 # The car slip
                 body.angle -= 0.04
         if self.keys[self.RIGHT] and self.speed > 20:
-            body.angle += 0.04
+            body.angle += 0.05
             if not self.keys[self.HANDBRAKE]:
                 temp_angle = body.angle + math.pi / 2
                 body.apply_impulse(
                     (math.cos(temp_angle) * self.force * 0.02,
                      math.sin(temp_angle) * self.force * 0.02))
-                self.brake(0.97)
+                self.brake(0.95)
             else:
                 # The car slip
                 body.angle += 0.04
@@ -91,27 +102,33 @@ class Player(serge.blocks.actors.ScreenActor):
         if self.keys[self.GO]:
             body.apply_force((force_x, force_y), (0, 0))
         if self.keys[self.BRAKE] or \
-            (self.keys[self.HANDBRAKE] and self.speed < 200):
+            (self.keys[self.HANDBRAKE] and self.speed < 100):
             self.brake(0.8)
         #
         # handle friction
         if body.velocity != (0, 0):
+            self.brake(0.98)
+        # TOO DIRTY!
+        if self.speed > 600:
             self.brake(0.97)
         #
         # update camera
         # TODO WRAP it and make it more fluent.
         # TODO Rotate the camera according to the direction of the velocity
-        camera = serge.engine.CurrentEngine().renderer.getCamera()
-        dx, dy = self.getRelativeLocationCentered(camera)
-        if dx < 100 and dx > -100 and dy < 100 and dy > -100:
-            camera.update(10)
-        else:
-            while not (dx < 100 and dx > -100 and dy < 100 and dy > -100):
-                camera.update(10)
-                dx, dy = self.getRelativeLocationCentered(camera)
+        if self.isMainPlayer:
+            self.adjustCamera()
         #
         # save the last position
         self.last_pos = (self.x, self.y)
+        #
+        # Update the info to the server side
+        if self.isOLPlay and self.isMainPlayer:
+            key_data = json.dumps(['keys', self.keys])
+            self.sock.sendto(key_data, ('184.82.236.126', 9999))
+            # and adjust all info. if lantency to much then reject
+        if self.isMainPlayer:
+            pass
+            #self.log.info(self.speed)
 
     def brake(self, value):
         """ Slow down the car """
@@ -135,6 +152,16 @@ class Player(serge.blocks.actors.ScreenActor):
             10
             )
         ground._visual.setSurface(ground_surface)
+
+    def adjustCamera(self):
+        camera = serge.engine.CurrentEngine().renderer.getCamera()
+        dx, dy = self.getRelativeLocationCentered(camera)
+        if (dx < 100 and dx > -100 and dy < 100 and dy > -100):
+            camera.update(15)
+        else:
+            while not (dx < 100 and dx > -100 and dy < 100 and dy > -100):
+                camera.update(15)
+                dx, dy = self.getRelativeLocationCentered(camera)
 
 class KeyControl(serge.blocks.behaviours.Behaviour):
     """ Control the car with keyboard """

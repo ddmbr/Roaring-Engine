@@ -1,5 +1,7 @@
 import random
 import pygame
+import socket
+import json
 
 import serge.actor
 import serge.visual
@@ -13,11 +15,13 @@ from theme import G
 
 import player
 import bg
+import olctlhub
 
 class MainScreen(serge.blocks.actors.ScreenActor):
     """ The logic for the main screen """
-    def __init__(self):
+    def __init__(self, other_player_num = 1):
         super(MainScreen, self).__init__('item', 'main-screen')
+        self.other_player_num = other_player_num
     def addedToWorld(self, world):
         super(MainScreen, self).addedToWorld(world)
         self.manager = world.findActorByName('behaviours')
@@ -31,16 +35,32 @@ class MainScreen(serge.blocks.actors.ScreenActor):
         #       player.PlayerCar('player', 'player')
         #       )
         #
+        self.sock = olctlhub.sock
         self.player = serge.blocks.utils.addActorToWorld(
             world,
-            player.Player('player', 'player'),
+            player.Player(True, True, self.sock),
             physics = serge.physical.PhysicalConditions(
-                mass = 1,
+                mass = 3,
                 width = 1,
-                height = 1,
+                height = 2,
                 update_angle = True
-                )
+                ),
+            center_position = (300, 300),
+            origin = (300, 300),
             )
+        # TODO add a condition statement for non-network
+        self.olctl = serge.blocks.utils.addActorToWorld(
+            world,
+            olctlhub.OLControlHub(self.sock)
+            )
+        self.log.info('Create OLCtl complete with players '+str(self.other_player_num))
+        self.log.info(len(world.findActorsByTag('player')))
+        while len(world.findActorsByTag('player')) != self.other_player_num + 1:
+            data = json.dumps(['request-player'])
+            olctlhub.sock.sendto(data, (G('host'), G('port')))
+            self.olctl.updateActor(1, world)
+        camera = serge.engine.CurrentEngine().renderer.getCamera()
+        camera.setTarget(self.player)
         self.bg = serge.blocks.utils.addActorToWorld(
             world,
             bg.Background('bg', 'bg'),
@@ -49,12 +69,12 @@ class MainScreen(serge.blocks.actors.ScreenActor):
             world,
             bg.Ground('ground', 'ground'),
             )
-        camera = serge.engine.CurrentEngine().renderer.getCamera()
-        camera.setTarget(self.player)
 
-def main():
-    world = serge.engine.CurrentEngine().getWorld('main-screen')
+def main(other_player_num = 1):
+    engine = serge.engine.CurrentEngine()
+    engine.setCurrentWorldByName('main-screen')
+    world = engine.getWorld('main-screen')
     manager = serge.blocks.behaviours.BehaviourManager('behaviours', 'behaviours')
     world.addActor(manager)
-    s = MainScreen()
+    s = MainScreen(other_player_num)
     world.addActor(s)
