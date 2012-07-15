@@ -51,7 +51,7 @@ class Player(serge.blocks.actors.ScreenActor):
         pc.mass = 900
         pc.width = 48
         pc.height = 64
-        pc.friction = 10
+        pc.friction = 0.2
         #
         # keys constants
         self.GO = 0
@@ -133,6 +133,7 @@ class Player(serge.blocks.actors.ScreenActor):
         if self.isMainPlayer:
             pass
             #self.log.info(self.speed)
+        body.angular_velocity *= 0.9
 
     def brake(self, value):
         """ Slow down the car """

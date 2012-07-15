@@ -40,9 +40,11 @@ class MainScreen(serge.blocks.actors.ScreenActor):
             world,
             player.Player(True, True, self.sock),
             physics = serge.physical.PhysicalConditions(
-                mass = 3,
-                width = 1,
-                height = 2,
+                mass = 4,
+                width = 48,
+                height = 64,
+                elasticity = 0.95,
+                friction = 0.02,
                 update_angle = True
                 ),
             center_position = (300, 300),
