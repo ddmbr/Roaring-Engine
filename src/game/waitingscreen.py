@@ -47,6 +47,7 @@ class WaitingScreen(serge.blocks.actors.ScreenActor):
         self.manager.assignBehaviour(
             self, ClickCheck(), 'click-check')
     def updateActor(self, interval, world):
+        # OZM
         try:
             recieved = olctlhub.sock.recv(1024, socket.MSG_DONTWAIT)
         except:
