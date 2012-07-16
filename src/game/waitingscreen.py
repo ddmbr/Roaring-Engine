@@ -54,7 +54,7 @@ class WaitingScreen(serge.blocks.actors.ScreenActor):
         recieved = json.loads(recieved)
         if recieved[1] == 'room-list':
             self.roomList.updateList(recieved[2])
-        elif recieved[1] == 'start':
+        elif recieved[1] == 'start' or recieved[1] == 'keys':
             self.log.info('we will start')
             mainscreen.main(int(recieved[2]) - 1)
     
