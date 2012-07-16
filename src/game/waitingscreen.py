@@ -80,7 +80,7 @@ class ClickCheck(serge.blocks.behaviours.Behaviour):
 
 def main():
     engine = serge.engine.CurrentEngine()
-    engine.setCurrentWorldByName('main-screen')
+    engine.setCurrentWorldByName('waiting-screen')
     world = engine.getWorld('waiting-screen')
     if world.findActorByName('waiting-screen') != None:
         return

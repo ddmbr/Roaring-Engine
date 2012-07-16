@@ -41,6 +41,8 @@ def addTrack(world):
         for i in range(len(points)):
             p_a = (points[i][0] - G('track-width') / 2, points[i][1] - G('track-height') / 2)
             p_b = (points[i - 1][0] - G('track-width') / 2, points[i - 1][1] - G('track-height') / 2)
+            #p_a = (points[i][0], points[i][1])
+            #p_b = (points[i - 1][0], points[i - 1][1])
             serge.blocks.utils.addActorToWorld(
                 world,
                 Bar('bar'+str(p_a[0])+','+str(p_a[1]), p_a),
