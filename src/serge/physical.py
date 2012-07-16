@@ -32,7 +32,8 @@ class PhysicalConditions(serialize.Serializable):
     )
     
     def __init__(self, mass=0.0, radius=0.0, velocity=(0.0, 0.0), force=(0.0, 0.0), width=0.0, height=0.0, fixed=False,
-                    friction=0.1, elasticity=1.0, group=0, layers=-1, update_angle=False, visual_size=False):
+                    friction=0.1, elasticity=1.0, group=0, layers=-1, update_angle=False, visual_size=False,
+                    a = None, b = None):
         """Initialise the conditions"""
         self.body = None
         if not mass and not fixed:
@@ -49,7 +50,7 @@ class PhysicalConditions(serialize.Serializable):
         self.layers = layers
         self.space = None
         if not visual_size:
-            self.setGeometry(radius, width, height)
+            self.setGeometry(radius, width, height, a, b)
 
     def init(self):
         """Initialize from serialized form"""
@@ -57,7 +58,7 @@ class PhysicalConditions(serialize.Serializable):
         self.setGeometry(self.radius, self.width, self.height)
         self._createPhysicsObject()
                 
-    def setGeometry(self, radius=None, width=None, height=None):
+    def setGeometry(self, radius=None, width=None, height=None, a=None, b=None):
         """Set the geometry
         
         You must specify either the radius or the width and height
@@ -65,26 +66,34 @@ class PhysicalConditions(serialize.Serializable):
         """
         #
         # Reality check
+        # TODO modify for segment
         if radius and (width or height):
             raise InvalidDimensions('Must specify radius or width & height, not both')
         elif not radius and not (width and height):
             raise InvalidDimensions('Must specify width & height')
         #
         if radius:
-            self.geometry_type = 'circle'
+            if not a and not b:
+                self.geometry_type = 'circle'
+            else:
+                self.geometry_type = 'segment'
         else:
             self.geometry_type = 'rectangle'
         self.radius = radius
         self.width = width
         self.height = height
+        self.a = a
+        self.b = b
         self._createPhysicsObject()
             
     def _createPhysicsObject(self):
         """Return a new physics object"""
         if self.geometry_type == 'circle':
             inertia = pymunk.moment_for_circle(self.mass, 0, self.radius, (0,0))
-        else:
+        elif self.geometry_type == 'rectangle':
             inertia = pymunk.moment_for_box(self.mass, self.width, self.height)
+        elif self.geometry_type == 'segment':
+            inertia = pymunk.moment_for_segment(self.mass, self.a, self.b)
         #
         body = pymunk.Body(self.mass, inertia)
         body.velocity = self.velocity
@@ -92,11 +101,13 @@ class PhysicalConditions(serialize.Serializable):
         #
         if self.geometry_type == 'circle':
             shape = pymunk.Circle(body, self.radius, (0,0))
-        else:
+        elif self.geometry_type == 'rectangle':
             #shape = pymunk.Poly(body, [(0, 0), (self.width, 0), 
             #                           (self.width, self.height), (0, self.height)])
             w2, h2 = self.width/2, self.height/2
             shape = pymunk.Poly(body, [(-w2,-h2), (+w2, -h2), (+w2, +h2), (-w2, +h2)])
+        elif self.geometry_type == 'segment':
+            shape = pymunk.Segment(body, self.a, self.b, self.radius)
         #
         shape.elasticity = self.elasticity
         shape.collision_type = 2

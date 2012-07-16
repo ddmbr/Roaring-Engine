@@ -4,6 +4,8 @@ import pygame
 import os
 import copy
 import re
+import cairo
+import rsvg
 
 pygame.font.init()
 
@@ -42,7 +44,17 @@ class Store(registry.GeneralStore):
             # Load the image and work out the dimensions based on the number of cells
             # wide and high
             try:
-                image = pygame.image.load(self._resolveFilename(path))
+                if path[-3:] != 'svg':
+                    image = pygame.image.load(self._resolveFilename(path))
+                elif path[-3:] == 'svg':
+                    print 'svg file type detected'
+                    svg_graphics = rsvg.Handle(self._resolveFilename(path))
+                    size = svg_graphics.get_dimension_data()
+                    image = pygame.Surface((size[0], size[1]))
+                    pixels = pygame.surfarray.pixels2d(image)
+                    cairo_surface = cairo.ImageSurface.create_for_data(pixels.data, cairo.FORMAT_RGB24, size[0], size[1])
+                    ctx = cairo.Context(cairo_surface)
+                    svg_graphics.render_cairo(ctx)
             except Exception, err:
                 raise BadSprite('Failed to load sprite from "%s": %s' % (path, err))
             #

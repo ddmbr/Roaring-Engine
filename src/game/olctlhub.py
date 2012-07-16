@@ -54,6 +54,8 @@ class OLControlHub(serge.actor.Actor):
                         origin = recieved[2],
                         )
                     self.log.info('create player '+recieved[0]+' successfully')
+                else:
+                    self.log.info('but player '+recieved[0]+' created')
             elif recieved[1] == 'adjust-pos':
                 p = world.findActorByName(str(recieved[0]))
                 if p != None:

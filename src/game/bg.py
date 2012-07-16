@@ -16,7 +16,7 @@ class Background(serge.blocks.actors.ScreenActor):
     def addedToWorld(self, world):
         super(Background, self).addedToWorld(world)
         # TODO place-holder
-        self.setSpriteName('default-background')
+        self.setSpriteName('1-track')
         self.setLayerName('background')
         self.moveTo(0, 0)
 

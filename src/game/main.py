@@ -34,6 +34,8 @@ def registerGraphics():
     #
     r('default-car', 'default-car.png')
     r('default-background', 'default-track.png')
+    r('1-track', '1-track.svg')
+    r('2-track', '2-track.svg')
     r('default-button', 'default-button.png')
     r('empty-ground', 'empty-ground.png')
 

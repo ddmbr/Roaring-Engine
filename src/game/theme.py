@@ -15,8 +15,8 @@ theme.load({
     'player-y': 400,
     'player-speed': 5,
     # track settings
-    'track-height': 6400,
-    'track-width': 8000,
+    'track-height': 2000,
+    'track-width': 2000,
     # network settings
     'host': '184.82.236.126',
     'port': 9999,

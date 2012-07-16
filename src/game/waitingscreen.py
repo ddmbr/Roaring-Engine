@@ -47,7 +47,6 @@ class WaitingScreen(serge.blocks.actors.ScreenActor):
         self.manager.assignBehaviour(
             self, ClickCheck(), 'click-check')
     def updateActor(self, interval, world):
-        # OZM
         try:
             recieved = olctlhub.sock.recv(1024, socket.MSG_DONTWAIT)
         except:
@@ -80,7 +79,11 @@ class ClickCheck(serge.blocks.behaviours.Behaviour):
                         olctlhub.send(json.dumps(['start']))
 
 def main():
-    world = serge.engine.CurrentEngine().getWorld('waiting-screen')
+    engine = serge.engine.CurrentEngine()
+    engine.setCurrentWorldByName('main-screen')
+    world = engine.getWorld('waiting-screen')
+    if world.findActorByName('waiting-screen') != None:
+        return
     manager = serge.blocks.behaviours.BehaviourManager('behaviours', 'behaviours')
     world.addActor(manager)
     s = WaitingScreen()

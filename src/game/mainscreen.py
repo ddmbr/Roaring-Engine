@@ -2,6 +2,7 @@ import random
 import pygame
 import socket
 import json
+import pymunk
 
 import serge.actor
 import serge.visual
@@ -16,6 +17,7 @@ from theme import G
 import player
 import bg
 import olctlhub
+import bar
 
 class MainScreen(serge.blocks.actors.ScreenActor):
     """ The logic for the main screen """
@@ -71,11 +73,14 @@ class MainScreen(serge.blocks.actors.ScreenActor):
             world,
             bg.Ground('ground', 'ground'),
             )
+        bar.addTrack(world)
 
 def main(other_player_num = 1):
     engine = serge.engine.CurrentEngine()
     engine.setCurrentWorldByName('main-screen')
     world = engine.getWorld('main-screen')
+    if world.findActorByName('main-screen') != None:
+        return
     manager = serge.blocks.behaviours.BehaviourManager('behaviours', 'behaviours')
     world.addActor(manager)
     s = MainScreen(other_player_num)
