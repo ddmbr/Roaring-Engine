@@ -33,7 +33,6 @@ def registerGraphics():
     #   rf('car-jump', 'car-jump-%d.png', 10, 15, True, loop=False)
     #
     r('default-car', 'default-car.png')
-    r('default-background', 'default-track.png')
     r('1-track', '1-track.svg')
     r('2-track', '2-track.svg')
     r('default-button', 'default-button.png')
