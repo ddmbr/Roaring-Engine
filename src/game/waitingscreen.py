@@ -54,9 +54,12 @@ class WaitingScreen(serge.blocks.actors.ScreenActor):
         recieved = json.loads(recieved)
         if recieved[1] == 'room-list':
             self.roomList.updateList(recieved[2])
-        elif recieved[1] == 'start' or recieved[1] == 'keys':
+        elif recieved[1] == 'start':
             self.log.info('we will start')
             mainscreen.main(int(recieved[2]) - 1)
+        elif recieved[1] == 'keys':
+            self.log.info('Other players have started but I\'m not. Trying to start...')
+            olctlhub.sock.send('["start-me"]')
     
 class ClickCheck(serge.blocks.behaviours.Behaviour):
     def __call__(self, world, actor, interval):
