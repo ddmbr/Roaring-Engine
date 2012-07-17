@@ -46,7 +46,7 @@ class OLControlHub(serge.actor.Actor):
                             mass = 4,
                             width = 48,
                             height = 64,
-                            elasticity = 0.95,
+                            elasticity = 0.2,
                             friction = 0.02,
                             update_angle = True,
                             ),
