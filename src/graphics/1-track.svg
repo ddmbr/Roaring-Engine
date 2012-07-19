@@ -25,15 +25,15 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497476"
-     inkscape:cx="2428.7225"
-     inkscape:cy="997.52207"
+     inkscape:cx="1042.8886"
+     inkscape:cy="3260.2637"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="768"
+     inkscape:window-width="1364"
+     inkscape:window-height="747"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="19"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -195,5 +195,11 @@
        id="path3004-11"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cscccccscc" />
+    <path
+       style="fill:none;stroke:#fff700;stroke-width:18.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 290.92393,1068.5374 1030.3556,1068.5374 z"
+       id="path3014"
+       inkscape:connector-curvature="0"
+       transform="translate(0,-2947.6378)" />
   </g>
 </svg>

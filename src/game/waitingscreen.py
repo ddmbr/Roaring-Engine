@@ -13,9 +13,10 @@ import serge.blocks.actors
 
 from theme import G
 
-import button
+import widget
+import text
+import track
 import olctlhub
-import selectlist
 import mainscreen
 
 class WaitingScreen(serge.blocks.actors.ScreenActor):
@@ -25,27 +26,48 @@ class WaitingScreen(serge.blocks.actors.ScreenActor):
         super(WaitingScreen, self).addedToWorld(world)
         serge.blocks.utils.addActorToWorld(
             world,
-            button.Button("refresh", content = "Refresh"),
+            widget.Button("refresh", content = "Refresh"),
             center_position = (200, 200)
             )
         serge.blocks.utils.addActorToWorld(
             world,
-            button.Button("new", content = "New"),
+            widget.Button("new", content = "New"),
             center_position = (200, 280)
             )
         serge.blocks.utils.addActorToWorld(
             world,
-            button.Button("start", content = "Start"),
+            widget.Button("start", content = "Start"),
             center_position = (200, 360)
             )
         self.roomList = serge.blocks.utils.addActorToWorld(
             world,
-            selectlist.SelectList('Room #'),
+            widget.SelectList('room #'),
             center_position = (500, 200)
+            )
+        serge.blocks.utils.addActorToWorld(
+            world,
+            text.Text('Current Room:'),
+            center_position = (240, 440)
+            )
+        self.current_room_num = serge.blocks.utils.addActorToWorld(
+            world,
+            text.Text('null'),
+            center_position = (200, 500)
+            )
+        self.current_room_track = serge.blocks.utils.addActorToWorld(
+            world,
+            widget.Scalar(pos = (240, 560), value = track.track_num, maxValue = 2),
+            center_position = (240, 560)
+            )
+        self.current_room_players = serge.blocks.utils.addActorToWorld(
+            world,
+            text.Text('0 players'),
+            center_position = (240, 600)
             )
         self.manager = world.findActorByName('behaviours')
         self.manager.assignBehaviour(
-            self, ClickCheck(), 'click-check')
+            self, widget.ClickCheck(), 'click-check-waiting')
+
     def updateActor(self, interval, world):
         try:
             recieved = olctlhub.sock.recv(1024, socket.MSG_DONTWAIT)
@@ -54,39 +76,25 @@ class WaitingScreen(serge.blocks.actors.ScreenActor):
         recieved = json.loads(recieved)
         if recieved[1] == 'room-list':
             self.roomList.updateList(recieved[2])
+        elif recieved[1] == 'my-room':
+            self.current_room_num.updateText('room #'+str(recieved[2][0]))
+            self.current_room_players.updateText(str(recieved[2][1])+' players')
+            self.current_room_track.value = recieved[2][2]
+            self.current_room_track.updateText()
         elif recieved[1] == 'start':
             self.log.info('we will start')
-            mainscreen.main(int(recieved[2]) - 1)
+            # param: players number and track
+            mainscreen.main(int(recieved[2][0]) - 1, recieved[2][1])
         elif recieved[1] == 'keys':
             self.log.info('Other players have started but I\'m not. Trying to start...')
-            olctlhub.sock.send('["start-me"]')
+            olctlhub.send(["start-me"])
     
-class ClickCheck(serge.blocks.behaviours.Behaviour):
-    def __call__(self, world, actor, interval):
-        mouse = serge.engine.CurrentEngine().getMouse()
-        if mouse.isClicked(serge.input.M_LEFT):
-            for button in mouse.getActorsUnderMouse(world):
-                self.log.info('button type:'+button.tag)
-                if button.tag == 'list-item':
-                    # join in a room
-                    button.hightlight()
-                    olctlhub.send(json.dumps(['join-room', int(button.name)]))
-                else:
-                    if button.name == 'refresh':
-                        olctlhub.send(json.dumps(['view-rooms']))
-                    elif button.name == 'new':
-                        olctlhub.send(json.dumps(['new-room'])
-                            )
-                        olctlhub.send(json.dumps(['view-rooms']))
-                    elif button.name == 'start':
-                        olctlhub.send(json.dumps(['start']))
 
 def main():
     engine = serge.engine.CurrentEngine()
     engine.setCurrentWorldByName('waiting-screen')
     world = engine.getWorld('waiting-screen')
-    if world.findActorByName('waiting-screen') != None:
-        return
+    world.clearActors()
     manager = serge.blocks.behaviours.BehaviourManager('behaviours', 'behaviours')
     world.addActor(manager)
     s = WaitingScreen()

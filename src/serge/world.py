@@ -213,7 +213,9 @@ class World(common.Loggable, serialize.Serializable, common.EventAware):
         if actor in self.unzoned_actors:
             self.unzoned_actors.remove(actor)
         else:
-            raise UnknownActor('The actor %s was not found in the world' % actor)
+            #raise UnknownActor('The actor %s was not found in the world' % actor)
+            self.log.debug('The actor %s was not found in the world' % actor)
+            return
 
     def scheduleActorRemoval(self, actor):
         """Remove an actor at the end of the next update for the world

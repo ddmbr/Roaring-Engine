@@ -14,12 +14,13 @@ theme.load({
     'player-x': 320,
     'player-y': 400,
     'player-speed': 5,
-    # track settings
-    'track-height': 4000,
-    'track-width': 4000,
     # network settings
     'host': '184.82.236.126',
     'port': 9999,
+    #'host': '127.0.0.1',
+    #'port': 9999,
+    # msg settings
+    'msg-height': 80,
     }),
     '__default__':'main'
 })

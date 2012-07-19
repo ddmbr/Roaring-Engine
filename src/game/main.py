@@ -16,6 +16,8 @@ import serge.blocks.utils
 
 import mainscreen
 import waitingscreen
+import startscreen
+import common
 
 from theme import G
 
@@ -33,8 +35,12 @@ def registerGraphics():
     #   rf('car-jump', 'car-jump-%d.png', 10, 15, True, loop=False)
     #
     r('default-car', 'default-car.png')
+    r('default-msg', 'default-msg.png')
+    r('inc-button', 'inc-button.png')
+    r('dec-button', 'dec-button.png')
     r('1-track', '1-track.svg')
     r('2-track', '2-track.svg')
+    r('3-track', '3-track.svg')
     r('default-button', 'default-button.png')
     r('empty-ground', 'empty-ground.png')
 
@@ -55,6 +61,8 @@ def startEngine():
          'status',
          'message']
         )
+    engine.renderer.getLayer('message').setStatic(True)
+    engine.renderer.getLayer('status').setStatic(True)
     #ground_layer = serge.engine.CurrentEngine().renderer.getLayer('background')
     #ground_layer.clearBeforeUpdate = False
     #
@@ -68,13 +76,15 @@ def startEngine():
         )
     #
     #Set current world
-    engine.setCurrentWorldByName('waiting-screen')
+    engine.setCurrentWorldByName('start-screen')
     return engine
 
 def main():
     #
     # register the resources
     registerGraphics()
+    broadcaster = serge.events.getEventBroadcaster()
+    broadcaster.registerEventsFromModule(common)
     #
     # Create the engine
     engine = startEngine()
@@ -82,7 +92,7 @@ def main():
     # Initialize the main logic
     # TODO
     # mainscreen.main(0)
-    waitingscreen.main()
+    startscreen.main()
     #
     # Run the engine
     engine.run(G('framerate'))
