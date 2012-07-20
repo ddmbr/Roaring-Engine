@@ -191,7 +191,7 @@ class Actor(common.Loggable, geometry.Rectangle, common.EventAware):
     ### Physics ###
     
     def setPhysical(self, physical_conditions):
-        """Set the physical conditions"""
+
         #
         # Watch for if this object already has a shape
         if self.physical_conditions and self.physical_conditions.body:

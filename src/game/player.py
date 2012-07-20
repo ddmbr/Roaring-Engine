@@ -51,7 +51,7 @@ class Player(serge.blocks.actors.ScreenActor):
                 )
         #
         # Assign physical attributes
-        self.force = 3250
+        self.force = 3500
         pc = self.physical_conditions
         pc.mass = 900
         pc.width = 48
@@ -68,6 +68,7 @@ class Player(serge.blocks.actors.ScreenActor):
         #
         # init last pos
         self.last_pos = (self.x, self.y)
+        self.last_angle = 0
         #
         # event linking
         self.lap = 0
@@ -134,7 +135,7 @@ class Player(serge.blocks.actors.ScreenActor):
         if body.velocity != (0, 0):
             self.brake(0.98)
         if self.speed > 600:
-            self.brake(0.995)
+            self.brake(0.98)
         if self.isMainPlayer:
         #
         # update camera
@@ -166,6 +167,7 @@ class Player(serge.blocks.actors.ScreenActor):
         #
         # save the last position
         self.last_pos = (self.x, self.y)
+        self.last_angle = body.angle
         #
         # Update the info to the server side
         if self.isOLPlay and self.isMainPlayer:
@@ -187,14 +189,24 @@ class Player(serge.blocks.actors.ScreenActor):
         world = serge.engine.CurrentEngine().getWorld('main-screen')
         ground = world.findActorByName('ground')
         ground_surface = ground._visual.getSurface()
+        angle = self.physical_conditions.body.angle
         pygame.draw.line(
             ground_surface,
             (0x50, 0x50, 0x50),
-            (self.last_pos[0] + track.map_size[0] / 2,
-                self.last_pos[1] + track.map_size[1] / 2),
-            (self.x + track.map_size[0] / 2,
-                self.y + track.map_size[1] / 2),
-            10
+            (self.last_pos[0] + track.map_size[0] / 2 + math.cos(self.last_angle + math.pi / 4 * 3) * 8,
+                self.last_pos[1] + track.map_size[1] / 2 + math.sin(self.last_angle + math.pi / 4 * 3) * 8),
+            (self.x + track.map_size[0] / 2 + math.cos(angle + math.pi / 4 * 3) * 8,
+                self.y + track.map_size[1] / 2 + math.sin(angle + math.pi / 4 * 3) * 8),
+            6
+            )
+        pygame.draw.line(
+            ground_surface,
+            (0x50, 0x50, 0x50),
+            (self.last_pos[0] + track.map_size[0] / 2 + math.cos(self.last_angle + math.pi / 4 * 5) * 8,
+                self.last_pos[1] + track.map_size[1] / 2 + math.sin(self.last_angle + math.pi / 4 * 5) * 8),
+            (self.x + track.map_size[0] / 2 + math.cos(angle + math.pi / 4 * 5) * 8,
+                self.y + track.map_size[1] / 2 + math.sin(angle + math.pi / 4 * 5) * 8),
+            6
             )
         ground._visual.setSurface(ground_surface)
 

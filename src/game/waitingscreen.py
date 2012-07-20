@@ -18,6 +18,7 @@ import text
 import track
 import olctlhub
 import mainscreen
+import bg
 
 class WaitingScreen(serge.blocks.actors.ScreenActor):
     def __init__(self):
@@ -27,17 +28,22 @@ class WaitingScreen(serge.blocks.actors.ScreenActor):
         serge.blocks.utils.addActorToWorld(
             world,
             widget.Button("refresh", content = "Refresh"),
-            center_position = (200, 200)
+            center_position = (200, 190)
             )
         serge.blocks.utils.addActorToWorld(
             world,
             widget.Button("new", content = "New"),
-            center_position = (200, 280)
+            center_position = (200, 250)
             )
         serge.blocks.utils.addActorToWorld(
             world,
             widget.Button("start", content = "Start"),
-            center_position = (200, 360)
+            center_position = (200, 310)
+            )
+        serge.blocks.utils.addActorToWorld(
+            world,
+            widget.Button("back", content = "Back"),
+            center_position = (200, 370)
             )
         self.roomList = serge.blocks.utils.addActorToWorld(
             world,
@@ -56,13 +62,17 @@ class WaitingScreen(serge.blocks.actors.ScreenActor):
             )
         self.current_room_track = serge.blocks.utils.addActorToWorld(
             world,
-            widget.Scalar(pos = (240, 560), value = track.track_num, maxValue = 2),
+            widget.Scalar(pos = (240, 560), value = track.track_num, maxValue = 3),
             center_position = (240, 560)
             )
         self.current_room_players = serge.blocks.utils.addActorToWorld(
             world,
             text.Text('0 players'),
             center_position = (240, 600)
+            )
+        serge.blocks.utils.addActorToWorld(
+            world,
+            bg.Background('bg-waiting'),
             )
         self.manager = world.findActorByName('behaviours')
         self.manager.assignBehaviour(
@@ -79,7 +89,7 @@ class WaitingScreen(serge.blocks.actors.ScreenActor):
         elif recieved[1] == 'my-room':
             self.current_room_num.updateText('room #'+str(recieved[2][0]))
             self.current_room_players.updateText(str(recieved[2][1])+' players')
-            self.current_room_track.value = recieved[2][2]
+            self.current_room_track.value = [recieved[2][2]]
             self.current_room_track.updateText()
         elif recieved[1] == 'start':
             self.log.info('we will start')

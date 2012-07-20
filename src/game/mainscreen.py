@@ -51,11 +51,11 @@ class MainScreen(serge.blocks.actors.ScreenActor):
             world,
             player.Player(self.isOLPlay, True, self.sock),
             physics = serge.physical.PhysicalConditions(
-                mass = 4,
+                mass = 3,
                 width = 48,
                 height = 64,
-                elasticity = 0.01,
-                friction = 0.2,
+                elasticity = 0.0,
+                friction = 0.9,
                 update_angle = True
                 ),
             center_position = track.start_pos,
@@ -83,7 +83,6 @@ class MainScreen(serge.blocks.actors.ScreenActor):
             )
 
     def destroy(self, obj, arg):
-        self.world.clearActors()
         if self.isOLPlay == False:
             startscreen.main()
         elif self.isOLPlay == True:
@@ -93,6 +92,7 @@ def main(other_player_num = 0, isOLPlay = False):
     engine = serge.engine.CurrentEngine()
     engine.setCurrentWorldByName('main-screen')
     world = engine.getWorld('main-screen')
+    world.clearActors()
     track.addTrack(world)
     manager = serge.blocks.behaviours.BehaviourManager('behaviours', 'behaviours')
     world.addActor(manager)

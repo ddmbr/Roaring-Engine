@@ -34,6 +34,8 @@ def registerGraphics():
     #   r('bg', 'bg.png')
     #   rf('car-jump', 'car-jump-%d.png', 10, 15, True, loop=False)
     #
+    r('bg-start', 'bg-start.png')
+    r('bg-waiting', 'bg-waiting.png')
     r('default-car', 'default-car.png')
     r('default-msg', 'default-msg.png')
     r('inc-button', 'inc-button.png')
@@ -56,12 +58,14 @@ def startEngine():
     #serge.blocks.utils.createLayersForEngine(
         engine,
         ['background',
+         'track',
          'ground',
          'main',
          'status',
          'message']
         )
     engine.renderer.getLayer('message').setStatic(True)
+    engine.renderer.getLayer('background').setStatic(True)
     engine.renderer.getLayer('status').setStatic(True)
     #ground_layer = serge.engine.CurrentEngine().renderer.getLayer('background')
     #ground_layer.clearBeforeUpdate = False

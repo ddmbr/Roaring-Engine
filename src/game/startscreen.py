@@ -17,6 +17,7 @@ import olctlhub
 import selectlist
 import mainscreen
 import track
+import bg
 
 class StartScreen(serge.blocks.actors.ScreenActor):
     def __init__(self):
@@ -41,6 +42,10 @@ class StartScreen(serge.blocks.actors.ScreenActor):
         serge.blocks.utils.addActorToWorld(
             world,
             widget.Scalar((500, 300), track.track_num, maxValue = 3),
+            )
+        serge.blocks.utils.addActorToWorld(
+            world,
+            bg.Background('bg-start'),
             )
         self.manager = world.findActorByName('behaviours')
         self.manager.assignBehaviour(

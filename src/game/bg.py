@@ -14,15 +14,21 @@ from theme import G
 import track
 
 class Background(serge.blocks.actors.ScreenActor):
-    def __init__(self):
+    def __init__(self, other_bg = None):
         super(Background, self).__init__('bg', 'bg')
         self.track_num = track.track_num[0]
+        self.other_bg = other_bg
     def addedToWorld(self, world):
         super(Background, self).addedToWorld(world)
         # TODO place-holder
-        self.setSpriteName(str(self.track_num)+'-track')
-        self.setLayerName('background')
-        self.moveTo(0, 0)
+        if self.other_bg == None:
+            self.setSpriteName(str(self.track_num)+'-track')
+            self.setLayerName('track')
+            self.moveTo(0, 0)
+        else:
+            self.setSpriteName(self.other_bg)
+            self.setLayerName('background')
+            self.moveTo(G('screen-width')/2, G('screen-height')/2)
 
 class Ground(serge.blocks.actors.ScreenActor):
     def addedToWorld(self, world):

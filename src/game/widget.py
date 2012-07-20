@@ -55,17 +55,19 @@ class Scalar(serge.blocks.actors.ScreenActor):
         if self.value[0] < 0:
             self.value[0] = self.maxValue
         self.updateText()
+        if self.value == track.track_num and self.world.name == 'waiting-screen':
+            olctlhub.send(['chg-track', track.track_num[0]])
     def inc(self):
         self.value[0] += 1
         if self.value[0] > self.maxValue:
             self.value[0] = 1
         self.updateText()
+        if self.value == track.track_num and self.world.name == 'waiting-screen':
+            olctlhub.send(['chg-track', track.track_num[0]])
     def updateText(self):
         self.world.removeActor(self.text)
         self.text = text.Text(str(self.value[0]), self.pos)
         self.world.addActor(self.text)
-        if self.value == track.track_num and self.world.name == 'waiting-screen':
-            olctlhub.send(['chg-track', track.track_num])
 
 class IncButton(serge.blocks.actors.ScreenActor):
     def __init__(self, control):
@@ -169,5 +171,6 @@ class Text(serge.actor.Actor):
         self.setLayerName('message')
         self.move(-text.width/2, -text.height/2)
     def updateText(self, content):
+        self.content = content
         text = serge.visual.Text(self.content, (0xff, 0xff, 0xff), font_size = 18)
         self.setVisual(text)

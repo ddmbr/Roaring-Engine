@@ -36,7 +36,7 @@ class Zone(geometry.Rectangle, common.Loggable):
         self.physics_stepsize = 10.0
         self.global_force = (0,0)
         self.active = False
-        self.setSpatial(-1000, -1000, 2000, 2000)
+        self.setSpatial(-3000, -3000, 6000, 6000)
         self.clearActors()
         self._initPhysics()
         self._rtf = 1.0 # A debugging aid to slow down physics

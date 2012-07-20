@@ -69,7 +69,7 @@ class NullCamera(Camera):
     
     def __init__(self):
         """Initialise"""
-        self.setSpatial(0, 0, 1000, 1000)
+        self.setSpatial(0, 0, 6000, 6000)
         self.zoom = 1.0
         self.addLogger()
         

@@ -55,7 +55,7 @@ def createWorldsForEngine(engine, worlds):
         world = serge.world.World(name)
         zone = serge.zone.Zone()
         zone.active = True
-        zone.setSpatial(-2000, -2000, 4000, 4000)
+        zone.setSpatial(-3000, -3000, 6000, 6000)
         world.addZone(zone)
         engine.addWorld(world)
         
