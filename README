@@ -1,4 +1,14 @@
+The GitHub repo of the project is at:
+http://github.com/ddmbr/Roaring-Engine
+
+For further details, follow the link provided above
+
+--------------------------------------------
+
 This is a online car racing game based on Pygame and the Serge engine.
 
-Online playing is already implemented but buggy.
-Use ASDW and SPACE to control the car.
+. The project is still not finished, however playable
+. A video demo is available, though rough, since time is limited (:
+. **NEED** python-rsvg, pymunk, python-cairo libraries.
+. Online playing is already implemented but buggy, as UDP connection is not stable.
+. Use ASDW and SPACE to control the car.
