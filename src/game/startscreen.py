@@ -14,7 +14,6 @@ from theme import G
 
 import widget
 import olctlhub
-import selectlist
 import mainscreen
 import track
 import bg
