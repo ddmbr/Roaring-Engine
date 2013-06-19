@@ -52,18 +52,23 @@ class Scalar(serge.blocks.actors.ScreenActor):
         self.decButton.moveTo(self.pos[0] - 30, self.pos[1])
     def dec(self):
         self.value[0] -= 1
-        if self.value[0] < 0:
+        if self.value[0] <= 0:
             self.value[0] = self.maxValue
         self.updateText()
-        if self.value == track.track_num and self.world.name == 'waiting-screen':
-            olctlhub.send(['chg-track', track.track_num[0]])
+        # print self.value, track.track_num
+        # if self.value == track.track_num and self.world.name == 'waiting-screen':
+        if self.world.name == 'waiting-screen':
+            # olctlhub.send(['chg-track', track.track_num[0]])
+            olctlhub.send(['chg-track', self.value[0]])
     def inc(self):
         self.value[0] += 1
         if self.value[0] > self.maxValue:
             self.value[0] = 1
         self.updateText()
-        if self.value == track.track_num and self.world.name == 'waiting-screen':
-            olctlhub.send(['chg-track', track.track_num[0]])
+        # print self.value, track.track_num
+        if self.world.name == 'waiting-screen':
+            # print 'setting track:', track.track_num[0]
+            olctlhub.send(['chg-track', self.value[0]])
     def updateText(self):
         self.world.removeActor(self.text)
         self.text = text.Text(str(self.value[0]), self.pos)
