@@ -98,7 +98,7 @@ class WaitingScreen(serge.blocks.actors.ScreenActor):
         elif recieved[1] == 'start':
             self.log.info('we will start')
             # param: players number and track
-            mainscreen.main(int(recieved[2][0]) - 1, recieved[2][1])
+            mainscreen.main(int(recieved[2][0]) - 1, recieved[2][1], True)
         elif recieved[1] == 'keys':
             self.log.info('Other players have started but I\'m not. Trying to start...')
             olctlhub.send(["start-me"])

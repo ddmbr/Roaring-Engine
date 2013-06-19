@@ -15,7 +15,7 @@ theme.load({
     'player-y': 400,
     'player-speed': 5,
     # network settings
-    'host': '184.82.236.126',
+    'host': '172.18.70.196',
     'port': 9999,
     #'host': '127.0.0.1',
     #'port': 9999,

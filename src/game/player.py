@@ -56,7 +56,8 @@ class Player(serge.blocks.actors.ScreenActor):
         pc.mass = 900
         pc.width = 48
         pc.height = 64
-        pc.friction = 0.2
+        pc.friction = 1
+        pc.elasticity = 0
         #
         # keys constants
         self.GO = 0
@@ -64,7 +65,7 @@ class Player(serge.blocks.actors.ScreenActor):
         self.LEFT = 2
         self.RIGHT = 3
         self.HANDBRAKE = 4
-        self.keys = [0, 0, 0, 0, 0]
+        self.keys = [0] * 5
         #
         # init last pos
         self.last_pos = (self.x, self.y)
@@ -83,34 +84,42 @@ class Player(serge.blocks.actors.ScreenActor):
         body.reset_forces()
         #
         # Stop spinning
-        body.angular_velocity *= 0.8
-        self.speed = math.sqrt(body.velocity[0] ** 2 + body.velocity[1] ** 2)
+        if not self.keys[self.HANDBRAKE]:
+            body.angular_velocity *= 0.8
+            self.speed = math.sqrt(body.velocity[0] ** 2 + body.velocity[1] ** 2)
+        else:
+            body.angular_velocity *= 0.9
+            self.speed = math.sqrt(body.velocity[0] ** 2 + body.velocity[1] ** 2)
         #
         # Handle turn left or turn right
         if self.keys[self.LEFT] and self.speed > 20:
             #body.angle -= 0.05
-            if not self.keys[self.HANDBRAKE]:
-                temp_angle = body.angle - math.pi / 2
-                body.apply_impulse(
-                    (math.cos(temp_angle) * (self.speed * 0.16),
-                     math.sin(temp_angle) * (self.speed * 0.16)),
-                    (math.cos(body.angle) * 6, math.sin(body.angle) * 6))
-                self.brake(0.99)
+            #if not self.keys[self.HANDBRAKE]:
+            temp_angle = body.angle - math.pi / 2
+            body.apply_impulse(
+                (math.cos(temp_angle) * (self.speed * 0.1),
+                 math.sin(temp_angle) * (self.speed * 0.1)),
+                (math.cos(body.angle) * 6, math.sin(body.angle) * 6))
+            self.brake(0.99)
+        """
             else:
                 # The car slip
                 body.angle -= 0.09
+        """
         if self.keys[self.RIGHT] and self.speed > 20:
             #body.angle += 0.05
-            if not self.keys[self.HANDBRAKE]:
-                temp_angle = body.angle + math.pi / 2
-                body.apply_impulse(
-                    (math.cos(temp_angle) * (self.speed * 0.16),
-                     math.sin(temp_angle) * (self.speed * 0.16)),
-                    (math.cos(body.angle) * 6, math.sin(body.angle) * 6))
-                self.brake(0.99)
+            #if not self.keys[self.HANDBRAKE]:
+            temp_angle = body.angle + math.pi / 2
+            body.apply_impulse(
+                (math.cos(temp_angle) * (self.speed * 0.1),
+                 math.sin(temp_angle) * (self.speed * 0.1)),
+                (math.cos(body.angle) * 6, math.sin(body.angle) * 6))
+            self.brake(0.99)
+        """
             else:
                 # The car slip
                 body.angle += 0.09
+        """
 
         #
         # Leave trace on the road
@@ -173,7 +182,7 @@ class Player(serge.blocks.actors.ScreenActor):
         if self.isOLPlay and self.isMainPlayer:
             key_data = ['keys', self.keys]
             olctlhub.send(key_data)
-            # and adjust all info. if lantency to much then reject
+            # and adjust all info. if lantency too much then reject
             physical_data = ['adjust-physical', [self.x, self.y, body.angle, tuple(body.velocity)]]
             olctlhub.send(physical_data)
 
@@ -190,6 +199,7 @@ class Player(serge.blocks.actors.ScreenActor):
         ground = world.findActorByName('ground')
         ground_surface = ground._visual.getSurface()
         angle = self.physical_conditions.body.angle
+
         pygame.draw.line(
             ground_surface,
             (0x50, 0x50, 0x50),

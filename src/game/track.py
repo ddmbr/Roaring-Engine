@@ -75,7 +75,7 @@ def addTrack(world):
                     radius = 1,
                     a = (0, 0),
                     b = (p_b[0] - p_a[0], p_b[1] - p_a[1]),
-                    friction = 0.4,
+                    friction = 1,
                     elasticity = 0,
                     ),
                 origin = p_a,
