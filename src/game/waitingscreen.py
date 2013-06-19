@@ -87,6 +87,10 @@ class WaitingScreen(serge.blocks.actors.ScreenActor):
         if recieved[1] == 'room-list':
             self.roomList.updateList(recieved[2])
         elif recieved[1] == 'my-room':
+            # DEBUG
+            print recieved
+            if recieved[2][0] == -1: return
+
             self.current_room_num.updateText('room #'+str(recieved[2][0]))
             self.current_room_players.updateText(str(recieved[2][1])+' players')
             self.current_room_track.value = [recieved[2][2]]
