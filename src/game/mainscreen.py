@@ -88,12 +88,13 @@ class MainScreen(serge.blocks.actors.ScreenActor):
         elif self.isOLPlay == True:
             waitingscreen.main()
 
-def main(other_player_num = 0, track_num = 1, isOLPlay = False):
+def main(other_player_num, track_num = None, isOLPlay = False):
     engine = serge.engine.CurrentEngine()
     engine.setCurrentWorldByName('main-screen')
     world = engine.getWorld('main-screen')
     world.clearActors()
-    track.track_num = [track_num]
+    if track_num != None:
+        track.track_num = [track_num]
     track.addTrack(world)
     manager = serge.blocks.behaviours.BehaviourManager('behaviours', 'behaviours')
     world.addActor(manager)

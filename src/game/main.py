@@ -94,8 +94,6 @@ def main():
     engine = startEngine()
     #
     # Initialize the main logic
-    # TODO
-    # mainscreen.main(0)
     startscreen.main()
     #
     # Run the engine

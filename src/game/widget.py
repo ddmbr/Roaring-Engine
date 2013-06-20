@@ -55,19 +55,16 @@ class Scalar(serge.blocks.actors.ScreenActor):
         if self.value[0] <= 0:
             self.value[0] = self.maxValue
         self.updateText()
-        # print self.value, track.track_num
-        # if self.value == track.track_num and self.world.name == 'waiting-screen':
+        track.track_num[0] = self.value[0]
         if self.world.name == 'waiting-screen':
-            # olctlhub.send(['chg-track', track.track_num[0]])
             olctlhub.send(['chg-track', self.value[0]])
     def inc(self):
         self.value[0] += 1
         if self.value[0] > self.maxValue:
             self.value[0] = 1
         self.updateText()
-        # print self.value, track.track_num
+        track.track_num[0] = self.value[0]
         if self.world.name == 'waiting-screen':
-            # print 'setting track:', track.track_num[0]
             olctlhub.send(['chg-track', self.value[0]])
     def updateText(self):
         self.world.removeActor(self.text)
@@ -113,7 +110,7 @@ class ClickCheck(serge.blocks.behaviours.Behaviour):
                     elif button.name == 'start':
                         olctlhub.send(['start'])
                     elif button.name == 'practice':
-                        mainscreen.main()
+                        mainscreen.main(0, None)
                     elif button.name == 'play-online':
                         waitingscreen.main()
                     elif button.name == 'inc':
